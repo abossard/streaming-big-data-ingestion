@@ -1,0 +1,24 @@
+{
+  "name": "streaming-big-data-ingestion",
+  "version": "1.0.0",
+  "description": "What if someone wants to send you more data, than the RAM in your server?",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abossard/streaming-big-data-ingestion.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abossard/streaming-big-data-ingestion/issues"
+  },
+  "homepage": "https://github.com/abossard/streaming-big-data-ingestion#readme",
+  "dependencies": {
+    "compression": "^1.7.3",
+    "fastify": "^1.12.1",
+    "msgpack-lite": "^0.1.26"
+  }
+}
