@@ -4,6 +4,8 @@
   "description": "What if someone wants to send you more data, than the RAM in your server?",
   "main": "index.js",
   "scripts": {
+    "dev-server": "ts-node-dev $NODE_DEBUG_OPTION -- ./server.ts",
+    "start": "node --require ts-node/register ./server.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -20,10 +22,14 @@
     "@types/node": "^11.13.4",
     "compression": "^1.7.4",
     "fastify": "^2.2.0",
-    "msgpack-lite": "^0.1.26"
+    "fastify-compress": "^0.8.1",
+    "msgpack-lite": "^0.1.26",
+    "msgpack5": "^4.2.1"
   },
   "devDependencies": {
+    "@types/msgpack5": "^3.4.1",
     "ts-node": "^8.1.0",
+    "ts-node-dev": "^1.0.0-pre.32",
     "typescript": "^3.4.3"
   }
 }
