@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/abossard/streaming-big-data-ingestion#readme",
   "dependencies": {
-    "compression": "^1.7.3",
+    "compression": "^1.8.1",
     "fastify": "^1.12.1",
     "msgpack-lite": "^0.1.26"
   }
